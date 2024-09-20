@@ -1,0 +1,29 @@
+name: I got it! 🙋‍♀️ (Suggestions or other comments) 
+description: I have an idea for an enhancement to the site or other feedback comments. Lay them on me!
+title: "[Suggestion]: "
+labels: ["suggestion"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got ideas or comments to share? I'd love to hear them!
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What's your suggestion or comment?
+      description: Let me know what's on your mind.
+      placeholder: Sup...
+    validations:
+      required: true
+  - type: input
+    id: relevant-link
+    attributes:
+      label: Relevant link
+      description: If applicable, provide a link related to this issue.
+      placeholder: https://example.com
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to share your suggestions with me!
