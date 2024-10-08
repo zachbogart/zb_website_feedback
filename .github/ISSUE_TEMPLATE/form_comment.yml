@@ -1,18 +1,18 @@
-name: I got it! 🙋‍♀️ (Suggestions) 
-description: You have an idea for an enhancement to the site. Lay them on me!
-title: "[Suggestion]: "
-labels: ["suggestion"]
+name: Just chatting 💬 (Comments) 
+description: General comments or other notes. Much appreciated!
+title: "[Comment]: "
+labels: ["comment"]
 body:
   - type: markdown
     attributes:
       value: |
-        Got ideas to share? I'd love to hear them!
+        Got comments to share? Let's hear them!
   - type: textarea
     id: what-happened
     attributes:
-      label: What's your suggestion?
-      description: What idea would you love to share?
-      placeholder: What if...
+      label: What's up?
+      description: Let me know what's on your mind.
+      placeholder: Sup...
     validations:
       required: true
   - type: input
@@ -26,4 +26,4 @@ body:
   - type: markdown
     attributes:
       value: |
-        Thanks for taking the time to share your suggestions with me!
+        Thanks for taking the time to share!
