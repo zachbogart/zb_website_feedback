@@ -31,10 +31,10 @@ body:
     id: relevant-link
     attributes:
       label: Relevant link
-      description: If applicable, provide a link related to this issue.
+      description: Please provide a link related to this issue.
       placeholder: https://example.com
     validations:
-      required: false
+      required: true
   - type: textarea
     id: additional-context
     attributes:
