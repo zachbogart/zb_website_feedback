@@ -22,7 +22,7 @@ body:
       description: If applicable, provide a link related to this issue.
       placeholder: https://example.com
     validations:
-      required: false
+      required: true
   - type: markdown
     attributes:
       value: |
